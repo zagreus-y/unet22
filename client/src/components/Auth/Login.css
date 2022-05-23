@@ -1,0 +1,58 @@
+.Login {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Login h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.login-form > .form-group {
+  margin-bottom: 30px;
+}
+
+.Login input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  width: 100%;
+  outline: none;
+  color: rgb(240, 240, 240);
+  font-size: 16px;
+  font-family: inherit;
+  display: block;
+  margin-top: 10px;
+}
+.underline-button:hover {
+  text-decoration: underline 3px #6c4d9f;
+  text-underline-offset: 5px;
+}
+
+.Login .form-group span {
+  font-size: 20px;
+}
+
+#login-button {
+  color: rgba(240, 240, 240, 1);
+  background: #6c4d9f;
+  border: 3px #6c4d9f solid;
+  padding: 10px 25px;
+  width: max-content;
+  cursor: pointer;
+  margin-bottom: 40px;
+  border-radius: 29px;
+}
+#login-button:hover {
+  background: rgba(240, 240, 240, 1);
+  color: #6c4d9f;
+  transition: 300ms;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 460px) {
+  .supbtn {
+    display: block;
+  }
+}

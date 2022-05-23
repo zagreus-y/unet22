@@ -1,0 +1,93 @@
+.profile-about {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.pro-bio {
+  color: #333333;
+  min-height: 150px;
+  /* padding: 10px; */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  /* box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.075); */
+
+  overflow: hidden;
+}
+
+.pro-bio > :nth-child(1) {
+  font-weight: 650;
+  padding: 10px 0 10px 20px;
+  font-size: 18px;
+  background-color: #e1cfff;
+  width: 100%;
+}
+
+.pro-bio > :nth-child(2) {
+  font-weight: 500;
+  padding: 0 20px;
+  font-size: 18px;
+  width: 98%;
+}
+
+.dash-skill {
+  min-height: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.dash-skill > :nth-child(1) {
+  font-weight: 650;
+  color: #333333;
+  padding: 10px 0 10px 20px;
+  font-size: 18px;
+  background-color: #e1cfff;
+}
+
+.dash-skill > :nth-child(2) {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.dash-skill > :nth-child(2) > div {
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 999px;
+  background-color: #5c2d91;
+  /* background-color: #F1F8FF; */
+  width: max-content;
+  height: max-content;
+  /* color: #0366d6; */
+  color: white;
+  border: none;
+  cursor: default;
+  margin: 0 10px 10px 0;
+}
+
+.dash-skill > :nth-child(2) > div:hover {
+  /* background-color: #d7ebff; */
+  background-color: #4a1d7e;
+}
+
+@media only screen and (max-width: 900px) {
+  .profile-about {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .pro-bio > :nth-child(2) {
+    width: initial;
+  }
+
+  .dash-skill > :nth-child(2) {
+    width: initial;
+  }
+}

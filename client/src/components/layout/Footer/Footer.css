@@ -1,0 +1,24 @@
+#footer {
+  background: #6d6d6d;
+
+  display: flex;
+
+  justify-content: center;
+  width: 100vw;
+  /* margin-top: 4vh; */
+  align-self: baseline;
+}
+
+@media only screen and (max-width: 900px) {
+  #footer {
+    justify-content: left;
+  }
+}
+
+.made__by {
+  font-size: 14px;
+  color: #fefefe;
+
+  margin: 0 auto;
+  margin: 10px;
+}

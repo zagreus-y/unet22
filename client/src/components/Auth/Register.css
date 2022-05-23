@@ -1,0 +1,69 @@
+.Register {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Register h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#nhitm {
+  font-size: 10px;
+}
+.register-form > .form-group {
+  margin-bottom: 30px;
+}
+
+.Register input {
+  font-family: inherit;
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+}
+
+.Register .form-group span {
+  font-size: 20px;
+}
+
+.register-land {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  height: 100vh;
+}
+
+.register-land > :nth-child(1) {
+  box-sizing: border-box;
+  padding-top: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background: rgb(240, 240, 240);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.register-land > :nth-child(2) {
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.register-land img {
+  height: fit-content;
+}
+
+@media only screen and (max-width: 900px) {
+  .register-land {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  }
+}
