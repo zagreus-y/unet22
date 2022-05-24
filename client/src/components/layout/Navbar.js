@@ -34,7 +34,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
           <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/register">MEMBERS</Link>
+          <Link to="/register">REGISTER</Link>
         </li>
         <li>
           <Link to="/profiles">FIND FRIENDS</Link>
